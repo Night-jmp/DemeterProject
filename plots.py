@@ -5,7 +5,7 @@ import plotly
 import sys
 import getopt
 
-plotly.tools.set_credentials_file(username='jconnolly80911', api_key='9ZuEkxEoaFNYTAfifyY4')
+plotly.tools.set_credentials_file(username='', api_key='')
 
 df = pd.read_csv("./sensordata.csv")
 
